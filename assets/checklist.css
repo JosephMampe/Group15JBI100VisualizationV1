@@ -1,0 +1,103 @@
+
+* {box-sizing: border-box}
+/* Style the header */
+.header {
+    background-color: #379683;
+
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+.topnav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #05386B;
+    overflow: auto;
+}
+
+/* Navigation links */
+.topnav a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.topnav a:hover {
+    background-color: #379683;
+}
+
+/* Style the current/active link */
+.topnav a.active {
+    background-color: #4CAF50;
+}
+
+.column {
+    float: left;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    overflow: auto;
+
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #EDF5E1;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: #379683;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.my_box_container  {
+    border: 2px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.my_box_containerGroup  {
+    border: 2px solid #ccc;
+
+}
+
+.my_box_input {
+    cursor: pointer;
+}
+
+.my_box_label {
+    display: table;
+}
+
