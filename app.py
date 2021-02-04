@@ -38,6 +38,7 @@ bin_attribute_list = [{'label': column, 'value': column, 'disabled': False} for 
 # creating dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
 
+
 # contains the layout of the app
 app.layout = html.Div([
 
